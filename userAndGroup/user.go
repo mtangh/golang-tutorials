@@ -10,7 +10,6 @@ import (
 func main() {
 	u, err := user.Current()
 	if err != nil {
-	if err != nil {
 		fmt.Printf("user: ERROR: %s\n", err.Error())
 	}
 
